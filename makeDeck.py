@@ -11,7 +11,7 @@ import math
 
 # === Parameters ===
 card_front_dir = "C:/temp/output/"  # folder with front images
-card_back_path = "C:/temp/TSonsStrategems/tauStrats/bg/cardback.png"
+card_back_path = "C:/temp/TSonsStrategems/aeldari/bg/finalBack.png"
 
 # === Collect card fronts ===
 card_front_paths = sorted([
@@ -49,8 +49,8 @@ for idx, front in enumerate(fronts):
     sheet_backs.paste(back, (x, y))
 
 # === Save outputs ===
-front_out_path = "C:/dev/40kStrategemCards/tauFront.png"
-back_out_path = "C:/dev/40kStrategemCards/tauBack.png"
+front_out_path = "C:/dev/40kStrategemCards/aeldariFront.png"
+back_out_path = "C:/dev/40kStrategemCards/aeldariBack.png"
 sheet_fronts.save(front_out_path)
 sheet_backs.save(back_out_path)
 
