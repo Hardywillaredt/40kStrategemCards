@@ -4,7 +4,7 @@ import cv2
 from PIL import Image
 
 # === Configuration ===
-INPUT_FOLDER = "C:/temp/TSonsStrategems/deathguard_flyblown/"
+INPUT_FOLDER = "C:/temp/TSonsStrategems/aeldari_spiritconclave/"
 OUTPUT_FOLDER = "C:/temp/output/"
 DEBUG_FOLDER = "C:/temp/debug/"
 MARGIN = 30
